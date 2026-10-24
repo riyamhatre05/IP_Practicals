@@ -1,0 +1,14 @@
+integer_value = 25
+float_value = 12.5
+string_value = "Hello python"
+boolean_value = True
+
+# Displaying values and their types
+print("Integer value:", integer_value)
+print("Type :", type(integer_value))
+print("\nfloat value :", float_value)
+print("Type :", type(float_value))
+print("\nstring value :", string_value)
+print("Type :", type(string_value))
+print("\nBoolean value :", boolean_value)
+print("Type :", type(boolean_value))
