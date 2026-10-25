@@ -1,0 +1,13 @@
+# Question 5: Largest of Three Numbers[span_0](start_span)[span_0](end_span)
+
+num1 = int(input("Enter First Number:"))  #[span_1](start_span)[span_1](end_span)
+num2 = int(input("Enter second Number:"))  #[span_2](start_span)[span_2](end_span)
+num3 = int(input("Enter Third Number:"))  #[span_3](start_span)[span_3](end_span)
+if num1 == num2 == num3:  #[span_4](start_span)[span_4](end_span)
+    print("All numbers are equal.")  #[span_5](start_span)[span_5](end_span)
+elif num1 >= num2 and num1 >= num3:  #[span_6](start_span)[span_6](end_span)
+    print("Largest number is:", num1)  #[span_7](start_span)[span_7](end_span)
+elif num2 >= num1 and num2 >= num3:  #[span_8](start_span)[span_8](end_span)
+    print("Largest number is:", num2)  #[span_9](start_span)[span_9](end_span)
+else:  #[span_10](start_span)[span_10](end_span)
+    print("Largest number is:", num3)  #[span_11](start_span)[span_11](end_span)
