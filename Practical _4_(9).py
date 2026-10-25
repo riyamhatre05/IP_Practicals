@@ -1,0 +1,11 @@
+# Question 9: Fibonacci Series[span_0](start_span)[span_0](end_span)
+
+n = int(input("Enter number of terms:"))[span_1](start_span)[span_1](end_span)
+a = 0[span_2](start_span)[span_2](end_span)
+b = 1[span_3](start_span)[span_3](end_span)
+print("Fibonacci series:")[span_4](start_span)[span_4](end_span)
+for i in range(n):[span_5](start_span)[span_5](end_span)
+    print(a, end=" ")[span_6](start_span)[span_6](end_span)
+    c = a + b[span_7](start_span)[span_7](end_span)
+    a = b[span_8](start_span)[span_8](end_span)
+    b = c[span_9](start_span)[span_9](end_span)
