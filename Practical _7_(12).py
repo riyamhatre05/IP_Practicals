@@ -1,0 +1,13 @@
+# Question 12: Real-World Scenario - Shopping Cart System[span_0](start_span)[span_0](end_span)
+
+cart = ["Laptop", "Mouse", "keyboard"][span_1](start_span)[span_1](end_span)
+categories = ("Electronics", "Accessories", "Stationary")[span_2](start_span)[span_2](end_span)
+print("categories :", categories)[span_3](start_span)[span_3](end_span)
+print("Initial cart :", cart)[span_4](start_span)[span_4](end_span)
+cart.append("Headphones ")[span_5](start_span)[span_5](end_span)
+cart.remove("Mouse")[span_6](start_span)[span_6](end_span)
+print("Updated cart:", cart)[span_7](start_span)[span_7](end_span)
+print("Number of items :", len(cart))[span_8](start_span)[span_8](end_span)
+print("shopping cart summary :")[span_9](start_span)[span_9](end_span)
+for item in cart:[span_10](start_span)[span_10](end_span)
+    print("-", item)[span_11](start_span)[span_11](end_span)
