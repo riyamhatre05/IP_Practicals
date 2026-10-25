@@ -1,0 +1,20 @@
+# Question 9: Triangle Type Identifier[span_0](start_span)[span_0](end_span)
+
+side1 = float(input("Enter first side :"))[span_1](start_span)[span_1](end_span)
+side2 = float(input("Enter second side :"))[span_2](start_span)[span_2](end_span)
+side3 = float(input("Enter Third side :"))[span_3](start_span)[span_3](end_span)
+
+# check for a valid triangle[span_4](start_span)[span_4](end_span)
+if (
+    (side1 + side2 > side3)
+    and (side1 + side3 > side2)
+    and (side2 + side3 > side1)
+):[span_5](start_span)[span_5](end_span)
+    if side1 == side2 == side3:[span_6](start_span)[span_6](end_span)
+        print("Equilateral Triangle")[span_7](start_span)[span_7](end_span)
+    elif side1 == side2 or side2 == side3 or side1 == side3:[span_8](start_span)[span_8](end_span)
+        print("Isosceles Triangle")[span_9](start_span)[span_9](end_span)
+    else:[span_10](start_span)[span_10](end_span)
+        print("Scalene Triangle")[span_11](start_span)[span_11](end_span)
+else:[span_12](start_span)[span_12](end_span)
+    print("Invalid Triangle")[span_13](start_span)[span_13](end_span)
